@@ -242,7 +242,7 @@ z-index: 200;
   -o-transition: all 0.5s ease 0s;
 }
 #arrow.visible {
-  opacity: 1;
+  opacity: 0.6;
 }
 #arrow:hover{
   opacity: 1;
@@ -315,6 +315,11 @@ a:hover{
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
+  opacity: 0.7;
+}
+
+#menuToggle span:hover{
+  opacity: 1;
 }
 
 #menuToggle span:first-child{
