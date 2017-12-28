@@ -130,7 +130,7 @@ html{
   position: relative;
   margin: auto;
   margin-top: 20vw;
-  width: 40%;
+  width: 30%;
   text-align: center;
   padding: 0.5vw 0;
 }
@@ -229,7 +229,6 @@ z-index: 200;
 }
 
 #arrow{
-  /* display: none; */
   opacity: 0;
   position: fixed;
   bottom: 3vw;
@@ -244,8 +243,12 @@ z-index: 200;
 #arrow.visible {
   opacity: 0.6;
 }
+#arrow.active{
+  opacity: 0.7;
+}
+
 #arrow:hover{
-  opacity: 1;
+  /* opacity: 1; */
   cursor: pointer;
   transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
