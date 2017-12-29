@@ -104,6 +104,14 @@ h2{
   text-align: center;
   top: 13vw;
 }
+
+.video iframe{
+  position: absolute;
+  margin-top: 20vw;
+  margin-left: 20%;
+  z-index: 50;
+}
+
 .About, .Projects{
   display: block;
   color: white;
@@ -133,7 +141,7 @@ html{
 .slike {
   position: relative;
   margin: auto;
-  margin-top: 20vw;
+  margin-top: 60vw;
   width: 30%;
   text-align: center;
   padding: 0.5vw 0;
