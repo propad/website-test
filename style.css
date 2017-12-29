@@ -355,8 +355,9 @@ a:hover{
 
 #menu{
   position: absolute;
-  width: 21vw;
-  margin: -17vw 0 0 -6vw;
+  width: 22vw;
+  height: 50vw;
+  margin: -18vw 0 0 -6vw;
   padding: 2.5vw;
   padding-top: 19vw;
   background: #ededed;
@@ -368,6 +369,7 @@ a:hover{
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   z-index: -3;
+  overflow-y: scroll;
 }
 
 #menu li{
