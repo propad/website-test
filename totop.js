@@ -3,7 +3,7 @@ window.onscroll = scroll1;
 function scroll1()
 {
     var toTop = document.getElementById('arrow');
-    if (window.scrollY > 300){
+    if (window.scrollY > 200){
       console.log(window.scrollY);
       // toTop.style.display='Block'
       toTop.classList.add("active")
