@@ -105,10 +105,21 @@ h2{
   top: 13vw;
 }
 
+.video{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  top: 30vw;
+}
 .video iframe{
-  position: absolute;
-  margin-top: 20vw;
-  margin-left: 20%;
+  left:0;
+  top:0;
+  height:60%;
+  width:60%;
+  left: 20%;
+  right: 20%;
+  position:absolute;
   z-index: 50;
 }
 
@@ -141,7 +152,7 @@ html{
 .slike {
   position: relative;
   margin: auto;
-  margin-top: 60vw;
+  margin-top: 30vw;
   width: 30%;
   text-align: center;
   padding: 0.5vw 0;
