@@ -105,6 +105,15 @@ h2{
   top: 13vw;
 }
 
+#projects a{
+  color: white;
+  text-decoration: none;
+}
+#projects li{
+  text-align: center;
+  padding: 0.5vw 0;
+}
+
 .video{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -119,6 +128,60 @@ h2{
   width:60%;
   left: 20%;
   right: 20%;
+  position:absolute;
+  z-index: 50;
+}
+
+#video1{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  top: 10vw;
+}
+#video1 iframe{
+  left:0;
+  top:0;
+  height:80%;
+  width:80%;
+  left: 10%;
+  right: 10%;
+  position:absolute;
+  z-index: 50;
+}
+
+#video2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  top: 10vw;
+}
+#video2 iframe{
+  left:0;
+  top:0;
+  height:80%;
+  width:80%;
+  left: 10%;
+  right: 10%;
+  position:absolute;
+  z-index: 50;
+}
+
+#video3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  top: 10vw;
+}
+#video3 iframe{
+  left:0;
+  top:0;
+  height:80%;
+  width:80%;
+  left: 10%;
+  right: 10%;
   position:absolute;
   z-index: 50;
 }
@@ -144,6 +207,9 @@ width: 45%;
 .Projects h3{
   font-size: 4vw;
 }
+.Projects p{
+  margin-top: 10vw;
+}
 
 html{
   font-family: 'Francois One', sans-serif;
@@ -163,7 +229,7 @@ html{
   display: block;
   margin: auto;
   margin-bottom: 2vw;
-  opacity: 0.7;
+  opacity: 0.3;
   filter: alpha(opacity=70);
   -webkit-transition: 1s;
 	-moz-transition: 1s;
@@ -284,7 +350,7 @@ z-index: 200;
 
 #arrow.active{
   display: block;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 #arrow:hover{
@@ -312,12 +378,12 @@ z-index: 10;
   opacity: 1;
 }
 
-a{
+.Top a{
   text-decoration: none;
   color: black;
   transition: color 0.3s ease;
 }
-a:hover{
+.Top a:hover{
   color: tomato;
 }
 
