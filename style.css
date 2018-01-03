@@ -404,15 +404,12 @@ a:hover{
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   z-index: -3;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 #menu li{
   text-align: center;
-  padding: 3vw 0;
-  font-size: 5vw;
+  padding: 1.5vw 0;
+  font-size: 4vw;
 }
 
 #menuToggle input:checked ~ ul{
