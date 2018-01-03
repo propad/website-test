@@ -390,8 +390,8 @@ a:hover{
 
 #menu{
   position: absolute;
-  width: 22vw;
-  height: 50vw;
+  width: 32vw;
+  height: 57vw;
   margin: -18vw 0 0 -6vw;
   padding: 2.5vw;
   padding-top: 19vw;
@@ -408,8 +408,8 @@ a:hover{
 
 #menu li{
   text-align: center;
-  padding: 1.5vw 0;
-  font-size: 4vw;
+  padding: 1vw 0;
+  font-size: 7vw;
 }
 
 #menuToggle input:checked ~ ul{
