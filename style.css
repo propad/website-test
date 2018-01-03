@@ -86,7 +86,6 @@ h1 {
   z-index: 4;
   opacity: 1;
 }
-
 .mask{
   width: 100%;
   position: absolute;
@@ -105,15 +104,6 @@ h2{
   top: 13vw;
 }
 
-#projects a{
-  color: white;
-  text-decoration: none;
-}
-#projects li{
-  text-align: center;
-  padding: 0.5vw 0;
-}
-
 .video{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -130,6 +120,21 @@ h2{
   right: 20%;
   position:absolute;
   z-index: 50;
+}
+
+#projects a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vw;
+}
+#projects li{
+  text-align: center;
+  padding: 1.5vw 0;
+}
+
+#project1, #project2, #project3{
+  padding-bottom: 30vw;
+  padding-top: 15vw;
 }
 
 #video1{
@@ -184,6 +189,10 @@ h2{
   right: 10%;
   position:absolute;
   z-index: 50;
+}
+
+.Projects{
+  height: 400vw;
 }
 
 .About, .Projects{
