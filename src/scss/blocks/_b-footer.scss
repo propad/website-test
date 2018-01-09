@@ -1,0 +1,52 @@
+
+.b-footer{
+  border-top: solid 1px white;
+  width: 80%;
+  margin: auto;
+  radius: 2vw;
+  margin-top: 6vw;
+}
+
+.phone{
+  text-align: center;
+}
+
+.mail{
+  text-align: center;
+}
+
+.phone-img{
+  display: inline-block;
+  width: 5vw;
+  opacity: 0.7;
+  padding: 1vw;
+  
+}
+.phone_link {
+  display: inline-block;
+  font-size: 3vw;
+  position: relative;
+  top: -1.5vw;
+  a{
+  color: white;
+  text-decoration: underline;
+   }
+}
+
+
+.mail-img{
+  display: inline-block;
+  width: 5.5vw;
+  opacity: 0.7;
+  padding: 1vw;
+}
+.mail_link {
+  display: inline-block;
+  font-size: 3vw;
+  position: relative;
+  top: -2vw;
+  a{
+  color: white;
+  text-decoration: underline;
+   }
+}

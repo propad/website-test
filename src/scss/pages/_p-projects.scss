@@ -1,0 +1,28 @@
+.p-projects{
+  display: block;
+  color: white;
+  width: 60vw;
+margin: auto;
+margin-top: 20vw;
+  position: relative;
+  text-align: center;
+  font-size: 3vw;
+
+  h3{
+    font-size: 4vw;
+  }
+  p{
+    margin-top: 10vw;
+  }
+
+}
+
+.projects-list a{
+  color: white;
+  text-decoration: none;
+  font-size: 6vw;
+}
+.projects-list li{
+  text-align: center;
+  padding: 1.5vw 0;
+}

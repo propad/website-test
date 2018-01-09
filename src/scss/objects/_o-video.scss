@@ -1,0 +1,24 @@
+
+.o-video{
+  padding-bottom: 10vh;
+  padding-top: 25vh;
+
+    iframe{
+      left:0;
+      top:0;
+      height:80%;
+      width:80%;
+      left: 10%;
+      right: 10%;
+      position:absolute;
+      z-index: 50;
+    }
+
+    .video-cont{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      top: 10vw;
+    }
+}

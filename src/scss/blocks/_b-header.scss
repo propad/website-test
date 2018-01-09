@@ -1,0 +1,34 @@
+.b-header{
+width: 100%;
+  height: 6vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
+  a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+
+  h1 {
+    position: relative;
+    display: block;
+
+    font-size: 8vw;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 4;
+    opacity: 1;
+  }
+  .mask{
+    width: 100%;
+    position: absolute;
+    height: 9vw;
+    background: black;
+    opacity: 0.8;
+    z-index: -1;
+  }
+}

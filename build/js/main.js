@@ -2,7 +2,7 @@ window.onscroll = scroll1;
 
 function scroll1()
 {
-    var toTop = document.getElementById('arrow');
+    var toTop = document.getElementById('c-scroll');
     if (window.scrollY > 200){
       console.log(window.scrollY);
       // toTop.style.display='Block'
@@ -11,15 +11,14 @@ function scroll1()
       console.log(window.scrollY);
         toTop.classList.remove("active");
     }
-    // $("#arrow").animate({scrollTop:0}, 300);
-    // window.scrollY>400 ? toTop.style.display='Block' :  toTop.style.display='none';
+
 }
 
 function scrollUp(){
   $("html,body").animate({scrollTop:0}, 300);
 }
 $(document).ready(function(){
-  $("#arrow").click(function(){
+  $("#c-scroll").click(function(){
     console.log("clicked");
     scrollUp();
     $(this).removeClass("active");

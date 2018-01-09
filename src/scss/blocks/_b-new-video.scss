@@ -1,0 +1,18 @@
+.b-new-video{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  top: 30vw;
+
+  iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:60%;
+    left: 20%;
+    right: 20%;
+    position:absolute;
+    z-index: 50;
+  }
+}

@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Ivan Propadovic/Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   </head>
   <body>
 
-<div class="Top">
+<div class="b-header">
   <a href="index.html">
 <h1>
   <div class="mask">
@@ -18,7 +18,7 @@
   Ivan Propadović
 </h1></a>
 
-    <nav role="navigation">
+    <nav class="c-menu">
       <div id="menuToggle">
         <input type="checkbox" />
         <span></span>
@@ -33,65 +33,76 @@
       </div>
     </nav>
 </div>
-<h2>Home
+<h2 class="c-page-title">Home
 </h2>
 
-<div class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dlM6KFA0Fao" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<div class="home">
+
+     <div class="b-new-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dlM6KFA0Fao"
+  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+     </div>
+
+    <div class="b-images">
+
+  <img src="assets/img/pedala1.jpg">
+  <img src="assets/img/pedala2.jpg">
+  <img src="assets/img/pedala3.jpg">
+  <img src="assets/img/pedala4.jpg">
+  <img src="assets/img/pedala1.jpg">
+
+
+    </div>
 </div>
 
-        <div class="slike">
-
-  <img src="pedala1.jpg">
-  <img src="pedala2.jpg">
-  <img src="pedala3.jpg">
-  <img src="pedala4.jpg">
-  <img src="pedala1.jpg">
-
-
-        </div>
-
-<div class="Socijala">
+<div class="c-social">
       <div class="fb">
         <a href="https://www.facebook.com/leteciveverac66" target="_blank">
-          <img src="fb.png">
+          <img src="assets/img/fb.png">
         </a>
       </div>
       <div class="insta">
         <a href="https://www.instagram.com/_propad_/" target="_blank">
-          <img src="insta.png">
+          <img src="assets/img/insta.png">
         </a>
       </div>
       <div class="li">
         <a href="https://rs.linkedin.com/in/ivan-propadovic-16166a134" target="_blank">
-          <img src="linked.png">
+          <img src="assets/img/linked.png">
         </a>
       </div>
 </div>
 
-<div class="line">
-      <div class="phone">
-        <img src="phone.png">
+<div class="b-footer">
+
+  <div class="phone">
+      <div class="phone-img">
+        <img src="assets/img/phone.png">
       </div>
-      <div class="mail">
-        <img src="mail.png">
+      <div class="phone_link">
+        <a href="tel:+381642864359">+381 64 2864359</a>
+      </div>
+  </div>
+
+  <div class="mail">
+      <div class="mail-img">
+        <img src="assets/img/mail.png">
       </div>
       <div class="mail_link">
       <a href="mailto:i.propadovic@gmail.com?Subject=Hello%20hello" target="_blank">i.propadovic@gmail.com</a>
       </div>
-      <div class="phone_link">
-      <a href="tel:+381642864359">+381 64 2864359</a>
-      </div>
+ </div>
+
 </div>
 
-<div id="arrow">
+<div id="c-scroll">
 
-    <img src="arrow-up.png">
+    <img src="assets/img/arrow-up.png">
 
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="totop.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
   </body>
 </html>

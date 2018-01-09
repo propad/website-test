@@ -1,0 +1,43 @@
+.c-social {
+position: fixed;
+top: 11vw;
+right: 3vw;
+z-index: 200;
+}
+
+
+.fb {
+  position: absolute;
+  right: 1vw;
+  width: 7vw;
+  opacity: 0.7
+
+}
+.fb:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.insta {
+  position: absolute;
+  top: 10vw;
+  right: 1vw;
+  width: 7vw;
+  opacity: 0.7
+}
+.insta:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.li {
+  position: absolute;
+  top: 19vw;
+  right: 1vw;
+  width: 7vw;
+  opacity: 0.7
+}
+.li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
