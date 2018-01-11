@@ -82,12 +82,12 @@ body {
   .b-new-video iframe {
     left: 0;
     top: 0;
-    height: 80%;
-    width: 80%;
-    left: 10%;
-    right: 10%;
+    height: 70%;
+    width: 70%;
+    left: 15%;
+    right: 15%;
     position: absolute;
-    z-index: 50; }
+    z-index: 1; }
 
 .b-images {
   position: relative;
@@ -444,16 +444,16 @@ input[type=submit]:hover {
 
 .o-video {
   padding-bottom: 10vh;
-  padding-top: 25vh; }
+  padding-top: 20vh; }
   .o-video iframe {
     left: 0;
     top: 0;
-    height: 60%;
-    width: 60%;
-    left: 20%;
-    right: 20%;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    right: 10%;
     position: absolute;
-    z-index: 50; }
+    z-index: 10; }
   .o-video .video-cont {
     overflow: hidden;
     padding-bottom: 56.25%;
