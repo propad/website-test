@@ -46,3 +46,24 @@ input[type=submit]{
     -moz-transition: 0.5s;
     transition: 0.5s;
   }
+  @media (min-width: 900px){
+    .p-contact {
+    margin: 25vw 32vw 45vw 32vw;
+    font-size: 2vw;
+    padding-bottom: 3vw;
+    input{
+      height: 2.5vw;
+      width: 25vw;
+    }
+
+    textarea{
+      height: 20vw;
+      width: 30vw;
+    }
+  }
+  input[type=submit]{
+    height: 2vw;
+    width: 6vw;
+    font-size: 2vw;
+  }
+}

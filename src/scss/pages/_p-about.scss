@@ -27,3 +27,26 @@ margin-top: 20vw;
     transition: 1s;
   }
 }
+
+@media (min-width: 400px){
+  .p-about{
+    font-size: 3vw;
+    img{
+      width: 40%;
+      margin-top: 8vw;
+      margin-bottom: 8vw;
+    }
+  }
+}
+
+@media (min-width: 900px){
+  .p-about{
+    font-size: 2vw;
+    width: 60vw;
+    img{
+      width: 35%;
+      margin-top: 7vw;
+      margin-bottom: 7vw;
+    }
+  }
+}

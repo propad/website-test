@@ -5,7 +5,13 @@
   position: relative;
   margin: auto;
   text-align: center;
-  top: 13vw;
+  top: 11vw;
+}
+@media (min-width: 900px){
+  .c-page-title {
+    font-size: 6vw;
+    top: 9vw;
+  }
 }
 
 .title-line{
@@ -15,3 +21,16 @@
     radius: 2vw;
     margin-top: 0.5vw;
   }
+@media (min-width: 900px){
+  .title-line{
+      border-top: solid 2px white;
+      width: 80vw;
+      margin: auto;
+      margin-top: 0.5vw;
+    }
+}
+@media (min-width: 1200px){
+  .title-line{
+      width: 90vw;
+    }
+}

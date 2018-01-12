@@ -23,6 +23,7 @@ width: 100%;
     z-index: 4;
     opacity: 0.8;
   }
+
   .mask{
     width: 100%;
     position: absolute;
@@ -30,5 +31,14 @@ width: 100%;
     background: black;
     opacity: 0.7;
     z-index: -1;
+  }
+}
+@media (min-width: 900px){
+  .b-header h1{
+    top: 1vw;
+    font-size: 7vw;
+    .mask{
+      height: 7vw;
+    }
   }
 }

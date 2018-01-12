@@ -4,7 +4,7 @@
   opacity: 0;
   position: fixed;
   bottom: 15vw;
-  left: 4vw;
+  left: 3vw;
   width: 10vw;
 }
 
@@ -15,4 +15,21 @@
 
 #c-scroll:hover{
   cursor: pointer;
+}
+
+@media (min-width: 400px) {
+  #c-scroll{
+    bottom: 5vw;
+    left: 6vw;
+    width: 6vw;
+  }
+
+}
+@media (min-width: 900px) {
+  #c-scroll{
+    bottom: 2.5vw;
+    left: 2.5vw;
+    width: 4vw;
+  }
+
 }

@@ -19,7 +19,7 @@
   }
 
     img:last-child{
-     margin-bottom: 0;
+     margin-bottom: 2vw;
   }
 
     img:hover {
@@ -29,5 +29,10 @@
     -moz-transition: 1s;
     transition: 1s;
   }
+}
 
+@media (min-width: 900px){
+  .b-images{
+    width: 35%;
+  }
 }

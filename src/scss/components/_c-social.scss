@@ -15,8 +15,25 @@ z-index: 200;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   transition: 0.5s;
-
 }
+@media (min-width: 400px) {
+  .fb{
+  right: 2vw;
+  width: 4vw;
+}
+}
+@media (min-width: 900px) {
+  .fb{
+  right: 1vw;
+  width: 2.5vw;
+}
+}
+@media (min-width: 900px) {
+  .fb{
+  right: 8vw;
+}
+}
+
 .fb:hover{
   opacity: 1;
   cursor: pointer;
@@ -37,6 +54,27 @@ z-index: 200;
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
+@media (min-width: 400px) {
+  .insta{
+  top: 5.5vw;
+  right: 2vw;
+  width: 4vw;
+}
+}
+@media (min-width: 900px) {
+  .insta{
+  top: 3.5vw;
+  right: 1vw;
+  width: 2.5vw;
+}
+}
+@media (min-width: 1200px) {
+  .insta{
+  top: 0vw;
+  right: 4.5vw;
+}
+}
+
 .insta:hover{
   opacity: 1;
   cursor: pointer;
@@ -57,6 +95,27 @@ z-index: 200;
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
+@media (min-width: 400px) {
+  .li{
+  top: 11vw;
+  right: 2vw;
+  width: 4vw;
+}
+}
+@media (min-width: 900px) {
+  .li{
+  top: 7vw;
+  right: 1vw;
+  width: 2.5vw;
+}
+}
+@media (min-width: 1200px) {
+  .li{
+  top: 0vw;
+  right: 1vw;
+}
+}
+
 .li:hover{
   opacity: 1;
   cursor: pointer;
