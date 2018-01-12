@@ -1,17 +1,29 @@
 .p-about{
   display: block;
   color: white;
-  width: 80vw;
+  width: 70vw;
 margin: auto;
 margin-top: 20vw;
   position: relative;
   text-align: center;
-  font-size: 3vw;
+  font-size: 4vw;
 
   img{
     margin: auto;
     margin-top: 10vw;
     margin-bottom: 10vw;
     width: 45%;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+  img:hover{
+    opacity: 1.0;
+    filter: grayscale(0%);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
   }
 }
