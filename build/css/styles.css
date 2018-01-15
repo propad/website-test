@@ -543,8 +543,9 @@ body {
     right: 1vw;
     width: 2.5vw; } }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .fb {
+    top: -1vw;
     right: 8vw; } }
 
 .fb:hover {
@@ -580,7 +581,7 @@ body {
 
 @media (min-width: 1200px) {
   .insta {
-    top: 0vw;
+    top: -1.07vw;
     right: 4.5vw; } }
 
 .insta:hover {
@@ -616,7 +617,7 @@ body {
 
 @media (min-width: 1200px) {
   .li {
-    top: 0vw;
+    top: -1vw;
     right: 1vw; } }
 
 .li:hover {

@@ -28,8 +28,9 @@ z-index: 200;
   width: 2.5vw;
 }
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .fb{
+  top: -1vw;
   right: 8vw;
 }
 }
@@ -70,7 +71,7 @@ z-index: 200;
 }
 @media (min-width: 1200px) {
   .insta{
-  top: 0vw;
+  top: -1.07vw;
   right: 4.5vw;
 }
 }
@@ -111,7 +112,7 @@ z-index: 200;
 }
 @media (min-width: 1200px) {
   .li{
-  top: 0vw;
+  top: -1vw;
   right: 1vw;
 }
 }
