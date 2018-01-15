@@ -382,7 +382,7 @@ body {
   .title-line {
     margin-left: 10%;
     margin-top: -7vw;
-    border-top: solid 2px white;
+    border-top: solid 1.5px white;
     width: 80%; } }
 
 @media (min-width: 1200px) {
