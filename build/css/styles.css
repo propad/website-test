@@ -78,7 +78,8 @@ body {
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-  top: 30vw; }
+  top: 30vw;
+  margin-bottom: 50vh; }
   .b-new-video iframe {
     left: 0;
     top: 0;
@@ -86,6 +87,16 @@ body {
     width: 100%;
     position: absolute;
     z-index: 1; }
+
+@media (min-width: 400px) {
+  .b-new-video {
+    top: 17vw;
+    margin-bottom: 30vh; } }
+
+@media (min-width: 900px) {
+  .b-new-video {
+    top: 30vw;
+    margin-bottom: 30vh; } }
 
 .b-images {
   position: relative;
@@ -163,7 +174,8 @@ body {
   border-top: 1px solid white;
   width: 70%;
   margin: auto;
-  margin-top: 6vw; }
+  margin-top: 6vw;
+  margin-bottom: -2vw; }
 
 .phone {
   text-align: center; }
@@ -206,7 +218,9 @@ body {
     border-top: solid 1.5px white;
     width: 80%; }
     .b-footer a {
-      font-size: 2.5vw; } }
+      font-size: 2.5vw; }
+    .b-footer .mail_link {
+      top: -2vw; } }
 
 @media (min-width: 1200px) {
   .b-footer {
@@ -222,16 +236,18 @@ body {
   text-align: center;
   font-size: 4vw; }
   .p-index h3 {
-    margin-top: 40vw;
+    margin-top: 45vw;
     margin-bottom: -25vw;
     font-size: 4vw; }
 
 @media (min-width: 400px) {
   .p-index {
-    font-size: 3vw; }
+    font-size: 3vw;
+    margin-top: 0vw; }
     .p-index h3 {
       font-size: 3.5vw;
-      margin-bottom: -27vw; } }
+      margin-bottom: -12vw;
+      margin-top: 27vw; } }
 
 @media (min-width: 900px) {
   .p-index {
@@ -315,8 +331,8 @@ body {
     font-size: 3.5vw; }
   .projects-list li {
     padding: 1vw 0;
-    margin-left: 22vw;
-    margin-right: 22vw; } }
+    margin-left: 25vw;
+    margin-right: 25vw; } }
 
 @media (min-width: 900px) {
   .projects-list a {
@@ -403,7 +419,7 @@ body {
 
 @media (min-width: 1200px) {
   #c-scroll {
-    bottom: 3.5vw;
+    bottom: 4vw;
     left: 4.5vw; } }
 
 .c-menu {
@@ -502,11 +518,11 @@ body {
 
 #menu {
   position: absolute;
-  width: 25vw;
+  width: 22vw;
   height: 46vw;
   margin: -7vw 0 0 -6vw;
   padding: 2.5vw;
-  padding-top: 10vw;
+  padding-top: 9vw;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -523,12 +539,12 @@ body {
 @media (min-width: 400px) {
   #menu {
     width: 15vw;
-    height: 36vw;
+    height: 33vw;
     margin: -4.5vw 0 0 -6vw;
     padding: 2.5vw;
-    padding-top: 7vw;
-    transform-origin: 0% 30%;
-    transform: translate(0, -130%); }
+    padding-top: 5vw;
+    transform-origin: 0% 33%;
+    transform: translate(0, -133%); }
     #menu li {
       font-size: 5vw;
       padding: 0.5 0; } }
@@ -537,7 +553,7 @@ body {
   #menu {
     width: 11vw;
     height: 25vw;
-    margin: -3vw 0 0 -6vw;
+    margin: -3vw 0 0 -5vw;
     padding: 1.5vw;
     padding-top: 5vw;
     transform: translate(-100%, 0); }
@@ -671,7 +687,7 @@ body {
 
 .p-contact {
   text-align: center;
-  margin: 20vw 25vw 40vw 25vw;
+  margin: 35vw 25vw 45vw 25vw;
   font-size: 4vw;
   color: white;
   border: 2px dashed white;
@@ -711,7 +727,7 @@ input[type=submit]:hover {
 
 @media (min-width: 900px) {
   .p-contact {
-    margin: 25vw 32vw 45vw 32vw;
+    margin: 25vw 32vw 15vw 32vw;
     font-size: 2vw;
     padding-bottom: 3vw; }
     .p-contact input {

@@ -119,11 +119,11 @@ z-index: 10;
 
 #menu{
   position: absolute;
-  width: 25vw;
+  width: 22vw;
   height: 46vw;
   margin: -7vw 0 0 -6vw;
   padding: 2.5vw;
-  padding-top: 10vw;
+  padding-top: 9vw;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -144,12 +144,12 @@ z-index: 10;
 @media (min-width: 400px){
   #menu{
     width: 15vw;
-    height: 36vw;
+    height: 33vw;
     margin: -4.5vw 0 0 -6vw;
     padding: 2.5vw;
-    padding-top: 7vw;
-    transform-origin: 0% 30%;
-    transform: translate(0, -130%);
+    padding-top: 5vw;
+    transform-origin: 0% 33%;
+    transform: translate(0, -133%);
 
     li{
       font-size: 5vw;
@@ -161,7 +161,7 @@ z-index: 10;
   #menu{
     width: 11vw;
     height: 25vw;
-    margin: -3vw 0 0 -6vw;
+    margin: -3vw 0 0 -5vw;
     padding: 1.5vw;
     padding-top: 5vw;
     transform: translate(-100%, 0);
