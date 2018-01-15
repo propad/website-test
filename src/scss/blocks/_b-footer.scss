@@ -2,7 +2,7 @@
 .b-footer{
   position: relative;
   border-top: 1px solid white;
-  width: 70vw;
+  width: 70%;
   margin: auto;
   margin-top: 6vw;
 }
@@ -54,7 +54,7 @@
 @media (min-width: 900px){
   .b-footer{
     border-top: solid 1.5px white;
-    width: 80vw;
+    width: 80%;
     a{
       font-size: 2.5vw;
     }
@@ -63,6 +63,6 @@
 }
 @media (min-width: 1200px){
   .b-footer{
-    width: 90vw;
+    width: 90%;
 }
 }

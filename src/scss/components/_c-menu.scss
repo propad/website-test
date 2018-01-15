@@ -71,6 +71,18 @@ z-index: 10;
   }
 }
 }
+@media (min-width: 1200px){
+  #menuToggle {
+    input{
+      width: 0vw;
+      height: 0vw;
+    }
+    span{
+    width: 0vw;
+    height: 0vw;
+  }
+}
+}
 
 #menuToggle span:hover{
   opacity: 1;
@@ -154,6 +166,22 @@ z-index: 10;
     li{
       font-size: 3vw;
       padding: 0.25 0;
+    }
+  }
+}
+
+@media (min-width: 1200px){
+  #menu{
+    width: 12vw;
+    height: 23vw;
+    margin: -0.7vw 0 0 0vw;
+    padding: 1.5vw;
+    padding-top: 1.5vw;
+    transform: translate(0, 0);
+
+    li{
+      font-size: 3vw;
+      padding: 0.5 0;
     }
   }
 }

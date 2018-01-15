@@ -4,7 +4,7 @@
   opacity: 0;
   position: fixed;
   bottom: 15vw;
-  left: 3vw;
+  left: 4vw;
   width: 10vw;
 }
 
@@ -23,7 +23,6 @@
     left: 6vw;
     width: 6vw;
   }
-
 }
 @media (min-width: 900px) {
   #c-scroll{
@@ -31,5 +30,10 @@
     left: 2.5vw;
     width: 4vw;
   }
-
+}
+@media (min-width: 900px) {
+  #c-scroll{
+    bottom: 3.5vw;
+    left: 4.5vw;
+  }
 }

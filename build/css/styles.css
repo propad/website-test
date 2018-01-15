@@ -156,7 +156,7 @@ body {
 .b-footer {
   position: relative;
   border-top: 1px solid white;
-  width: 70vw;
+  width: 70%;
   margin: auto;
   margin-top: 6vw; }
 
@@ -199,13 +199,13 @@ body {
 @media (min-width: 900px) {
   .b-footer {
     border-top: solid 1.5px white;
-    width: 80vw; }
+    width: 80%; }
     .b-footer a {
       font-size: 2.5vw; } }
 
 @media (min-width: 1200px) {
   .b-footer {
-    width: 90vw; } }
+    width: 90%; } }
 
 .p-index {
   display: block;
@@ -337,37 +337,44 @@ body {
   position: relative;
   margin: auto;
   text-align: center;
-  top: 11vw; }
+  top: 12vw;
+  z-index: 12; }
 
 @media (min-width: 900px) {
   .c-page-title {
     font-size: 6vw;
-    top: 9vw; } }
+    top: 11vw; } }
+
+@media (min-width: 1200px) {
+  .c-page-title {
+    top: 10vw; } }
 
 .title-line {
+  position: fixed;
+  margin-left: 15%;
   border-top: solid 1px white;
-  width: 70vw;
-  margin: auto;
-  radius: 2vw;
-  margin-top: 0.5vw; }
+  width: 70%;
+  margin-top: -8vw;
+  margin-bottom: 30vw; }
 
 @media (min-width: 900px) {
   .title-line {
+    margin-left: 10%;
+    margin-top: -7vw;
     border-top: solid 2px white;
-    width: 80vw;
-    margin: auto;
-    margin-top: 0.5vw; } }
+    width: 80%; } }
 
 @media (min-width: 1200px) {
   .title-line {
-    width: 90vw; } }
+    margin-left: 5%;
+    width: 90%; } }
 
 #c-scroll {
   display: none;
   opacity: 0;
   position: fixed;
   bottom: 15vw;
-  left: 3vw;
+  left: 4vw;
   width: 10vw; }
 
 #c-scroll.active {
@@ -388,6 +395,11 @@ body {
     bottom: 2.5vw;
     left: 2.5vw;
     width: 4vw; } }
+
+@media (min-width: 900px) {
+  #c-scroll {
+    bottom: 3.5vw;
+    left: 4.5vw; } }
 
 .c-menu {
   z-index: 10;
@@ -449,6 +461,14 @@ body {
     height: 0.4vw;
     margin-bottom: 0.6vw;
     margin-left: -2vw; } }
+
+@media (min-width: 1200px) {
+  #menuToggle input {
+    width: 0vw;
+    height: 0vw; }
+  #menuToggle span {
+    width: 0vw;
+    height: 0vw; } }
 
 #menuToggle span:hover {
   opacity: 1; }
@@ -517,6 +537,18 @@ body {
       font-size: 3vw;
       padding: 0.25 0; } }
 
+@media (min-width: 1200px) {
+  #menu {
+    width: 12vw;
+    height: 23vw;
+    margin: -0.7vw 0 0 0vw;
+    padding: 1.5vw;
+    padding-top: 1.5vw;
+    transform: translate(0, 0); }
+    #menu li {
+      font-size: 3vw;
+      padding: 0.5 0; } }
+
 .c-social {
   position: fixed;
   top: 11vw;
@@ -540,13 +572,14 @@ body {
 
 @media (min-width: 900px) {
   .fb {
+    top: -1vw;
     right: 1vw;
     width: 2.5vw; } }
 
 @media (min-width: 1200px) {
   .fb {
     top: -1vw;
-    right: 8vw; } }
+    right: 9vw; } }
 
 .fb:hover {
   opacity: 1;
@@ -575,14 +608,14 @@ body {
 
 @media (min-width: 900px) {
   .insta {
-    top: 3.5vw;
+    top: 2.5vw;
     right: 1vw;
     width: 2.5vw; } }
 
 @media (min-width: 1200px) {
   .insta {
     top: -1.07vw;
-    right: 4.5vw; } }
+    right: 5.3vw; } }
 
 .insta:hover {
   opacity: 1;
@@ -611,14 +644,14 @@ body {
 
 @media (min-width: 900px) {
   .li {
-    top: 7vw;
+    top: 6vw;
     right: 1vw;
     width: 2.5vw; } }
 
 @media (min-width: 1200px) {
   .li {
     top: -1vw;
-    right: 1vw; } }
+    right: 1.7vw; } }
 
 .li:hover {
   opacity: 1;

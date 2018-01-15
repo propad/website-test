@@ -5,32 +5,42 @@
   position: relative;
   margin: auto;
   text-align: center;
-  top: 11vw;
+  top: 12vw;
+  z-index: 12;
 }
 @media (min-width: 900px){
   .c-page-title {
     font-size: 6vw;
-    top: 9vw;
+    top: 11vw;
+  }
+}
+@media (min-width: 1200px){
+  .c-page-title {
+    top: 10vw;
   }
 }
 
 .title-line{
+    position: fixed;
+    margin-left: 15%;
     border-top: solid 1px white;
-    width: 70vw;
-    margin: auto;
-    radius: 2vw;
-    margin-top: 0.5vw;
+    width: 70%;
+    margin-top: -8vw;
+    margin-bottom: 30vw;
   }
 @media (min-width: 900px){
   .title-line{
+      // position: fixed;
+      margin-left: 10%;
+      margin-top: -7vw;
       border-top: solid 2px white;
-      width: 80vw;
-      margin: auto;
-      margin-top: 0.5vw;
+      width: 80%;
     }
 }
 @media (min-width: 1200px){
   .title-line{
-      width: 90vw;
+      // position: fixed;
+      margin-left: 5%;
+      width: 90%;
     }
 }
