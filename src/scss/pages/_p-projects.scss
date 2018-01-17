@@ -6,34 +6,43 @@ margin: auto;
 margin-top: 20vw;
   position: relative;
   text-align: center;
-  font-size: 4vw;
+  // font-size: 6vw;
 
   h3{
-    font-size: 4vw;
+    // font-size: 4vw;
   }
   p{
     margin-top: 13vw;
+    font-size: 6vw;
   }
 
 }
 
-.projects-list a{
+.projects-list {
+ margin-bottom: -26vw;
+  a{
   color: white;
   text-decoration: none;
-  font-size: 6vw;
+  font-size: 7vw;
 }
-.projects-list li{
+  li{
   text-align: center;
   padding: 1.5vw 0;
   margin-left: 20vw;
   margin-right: 20vw;
-border: 2px dashed white;
+ border: 2px dashed white;
 }
-
+}
 @media (min-width: 400px){
+  .p-projects{
+    p{
+      font-size: 4vw;
+    }
+}
   .projects-list{
+    margin-bottom: -15vw;
     a{
-      font-size: 3.5vw;
+      font-size: 5vw;
     }
     li{
       padding: 1vw 0;
@@ -44,9 +53,16 @@ border: 2px dashed white;
 }
 
 @media (min-width: 900px){
+  .p-projects{
+    width: 60vw;
+    p{
+      font-size: 3.5vw;
+    }
+  }
   .projects-list{
+        margin-bottom: -15vw;
     a{
-      font-size: 3vw;
+      font-size: 4vw;
     }
     li{
       padding: 0.5vw 0;
@@ -56,15 +72,10 @@ border: 2px dashed white;
   }
 }
 
-
-@media (min-width: 400px){
+@media (min-width: 1200px){
   .p-projects{
-    font-size: 2.5vw;
-  }
-}
-@media (min-width: 900px){
-  .p-projects{
-    font-size: 2vw;
-    width: 60vw;
+    p{
+      font-size: 2vw;
+    }
   }
 }

@@ -142,7 +142,7 @@ body {
     position: relative;
     display: block;
     top: 1vw;
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -238,14 +238,14 @@ body {
   .p-index h3 {
     margin-top: 45vw;
     margin-bottom: -25vw;
-    font-size: 4vw; }
+    font-size: 6vw; }
 
 @media (min-width: 400px) {
   .p-index {
     font-size: 3vw;
     margin-top: 0vw; }
     .p-index h3 {
-      font-size: 3.5vw;
+      font-size: 5vw;
       margin-bottom: -12vw;
       margin-top: 27vw; } }
 
@@ -265,7 +265,7 @@ body {
   margin-top: 20vw;
   position: relative;
   text-align: center;
-  font-size: 4vw; }
+  font-size: 6vw; }
   .p-about img {
     margin: auto;
     margin-top: 10vw;
@@ -285,7 +285,7 @@ body {
 
 @media (min-width: 400px) {
   .p-about {
-    font-size: 3vw; }
+    font-size: 4vw; }
     .p-about img {
       width: 40%;
       margin-top: 8vw;
@@ -293,12 +293,16 @@ body {
 
 @media (min-width: 900px) {
   .p-about {
-    font-size: 2vw;
+    font-size: 3vw;
     width: 60vw; }
     .p-about img {
       width: 35%;
       margin-top: 7vw;
       margin-bottom: 7vw; } }
+
+@media (min-width: 1200px) {
+  .p-about {
+    font-size: 2vw; } }
 
 .p-projects {
   display: block;
@@ -307,53 +311,57 @@ body {
   margin: auto;
   margin-top: 20vw;
   position: relative;
-  text-align: center;
-  font-size: 4vw; }
-  .p-projects h3 {
-    font-size: 4vw; }
+  text-align: center; }
   .p-projects p {
-    margin-top: 13vw; }
+    margin-top: 13vw;
+    font-size: 6vw; }
 
-.projects-list a {
-  color: white;
-  text-decoration: none;
-  font-size: 6vw; }
-
-.projects-list li {
-  text-align: center;
-  padding: 1.5vw 0;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  border: 2px dashed white; }
+.projects-list {
+  margin-bottom: -26vw; }
+  .projects-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 7vw; }
+  .projects-list li {
+    text-align: center;
+    padding: 1.5vw 0;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: 2px dashed white; }
 
 @media (min-width: 400px) {
-  .projects-list a {
-    font-size: 3.5vw; }
-  .projects-list li {
-    padding: 1vw 0;
-    margin-left: 25vw;
-    margin-right: 25vw; } }
-
-@media (min-width: 900px) {
-  .projects-list a {
-    font-size: 3vw; }
-  .projects-list li {
-    padding: 0.5vw 0;
-    margin-left: 22vw;
-    margin-right: 22vw; } }
-
-@media (min-width: 400px) {
-  .p-projects {
-    font-size: 2.5vw; } }
+  .p-projects p {
+    font-size: 4vw; }
+  .projects-list {
+    margin-bottom: -15vw; }
+    .projects-list a {
+      font-size: 5vw; }
+    .projects-list li {
+      padding: 1vw 0;
+      margin-left: 25vw;
+      margin-right: 25vw; } }
 
 @media (min-width: 900px) {
   .p-projects {
-    font-size: 2vw;
-    width: 60vw; } }
+    width: 60vw; }
+    .p-projects p {
+      font-size: 3.5vw; }
+  .projects-list {
+    margin-bottom: -15vw; }
+    .projects-list a {
+      font-size: 4vw; }
+    .projects-list li {
+      padding: 0.5vw 0;
+      margin-left: 22vw;
+      margin-right: 22vw; } }
+
+@media (min-width: 1200px) {
+  .p-projects p {
+    font-size: 2vw; } }
 
 .c-page-title {
   display: block;
-  font-size: 7vw;
+  font-size: 8vw;
   color: white;
   position: relative;
   margin: auto;
@@ -375,7 +383,7 @@ body {
   margin-left: 15%;
   border-top: solid 1px white;
   width: 70%;
-  margin-top: -8vw;
+  margin-top: -9vw;
   margin-bottom: 30vw; }
 
 @media (min-width: 900px) {
@@ -456,7 +464,7 @@ body {
   width: 7.9vw;
   height: 1.2vw;
   margin-bottom: 1.1vw;
-  top: 0.5vw;
+  top: -1vw;
   position: relative;
   background-color: white;
   border-radius: 0.3vw;
@@ -479,6 +487,7 @@ body {
     width: 4vw;
     height: 4.2vw; }
   #menuToggle span {
+    top: 0.5vw;
     width: 3.5vw;
     height: 0.4vw;
     margin-bottom: 0.6vw;
@@ -518,11 +527,11 @@ body {
 
 #menu {
   position: absolute;
-  width: 22vw;
-  height: 46vw;
-  margin: -7vw 0 0 -6vw;
-  padding: 2.5vw;
-  padding-top: 9vw;
+  width: 90vw;
+  height: 79vw;
+  margin: -8vw 0 0 0;
+  padding: 5.5vw;
+  padding-top: 8vw;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -530,36 +539,41 @@ body {
   transform-origin: 0% 25%;
   transform: translate(0, -125%);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  z-index: -3; }
+  z-index: -1; }
   #menu li {
     text-align: center;
-    padding: 1vw 0;
-    font-size: 7vw; }
+    padding: 2vw 0;
+    font-size: 10vw;
+    letter-spacing: 0.7vw;
+    border: 1.5px dashed black;
+    margin-top: 1.5vw;
+    margin-top: 1.5vw; }
 
 @media (min-width: 400px) {
   #menu {
-    width: 15vw;
-    height: 33vw;
-    margin: -4.5vw 0 0 -6vw;
+    width: 35vw;
+    height: 42.5vw;
+    margin: -5.5vw 0 0 0vw;
     padding: 2.5vw;
     padding-top: 5vw;
     transform-origin: 0% 33%;
     transform: translate(0, -133%); }
     #menu li {
-      font-size: 5vw;
-      padding: 0.5 0; } }
+      font-size: 6vw;
+      padding: 0.4vw 0;
+      letter-spacing: 0vw; } }
 
 @media (min-width: 900px) {
   #menu {
-    width: 11vw;
-    height: 25vw;
-    margin: -3vw 0 0 -5vw;
+    width: 13vw;
+    height: 30vw;
+    margin: -3vw 0 0 -1.5vw;
     padding: 1.5vw;
-    padding-top: 5vw;
-    transform: translate(-100%, 0); }
+    padding-top: 4vw;
+    transform: translate(-127%, 0); }
     #menu li {
-      font-size: 3vw;
-      padding: 0.25 0; } }
+      font-size: 4vw;
+      padding: 0.2vw 0; } }
 
 @media (min-width: 1200px) {
   #menu {
@@ -577,7 +591,7 @@ body {
   position: fixed;
   top: 11vw;
   right: 3vw;
-  z-index: 200; }
+  z-index: 20; }
 
 .fb {
   position: absolute;

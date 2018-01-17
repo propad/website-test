@@ -6,7 +6,7 @@ margin: auto;
 margin-top: 20vw;
   position: relative;
   text-align: center;
-  font-size: 4vw;
+  font-size: 6vw;
 
   img{
     margin: auto;
@@ -30,7 +30,7 @@ margin-top: 20vw;
 
 @media (min-width: 400px){
   .p-about{
-    font-size: 3vw;
+    font-size: 4vw;
     img{
       width: 40%;
       margin-top: 8vw;
@@ -41,7 +41,7 @@ margin-top: 20vw;
 
 @media (min-width: 900px){
   .p-about{
-    font-size: 2vw;
+    font-size: 3vw;
     width: 60vw;
     img{
       width: 35%;
@@ -49,4 +49,10 @@ margin-top: 20vw;
       margin-bottom: 7vw;
     }
   }
+}
+
+@media (min-width: 1200px){
+  .p-about{
+    font-size: 2vw;
+}
 }

@@ -21,7 +21,7 @@ textarea{
   width: 40vw;
 }
 }
-
+// #send{
 input[type=submit]{
   opacity: 0.7;
   background: white;
@@ -46,6 +46,7 @@ input[type=submit]{
     -moz-transition: 0.5s;
     transition: 0.5s;
   }
+// }
   @media (min-width: 900px){
     .p-contact {
     margin: 25vw 32vw 15vw 32vw;
@@ -61,9 +62,11 @@ input[type=submit]{
       width: 30vw;
     }
   }
+  // #send{
   input[type=submit]{
     height: 2vw;
     width: 6vw;
     font-size: 2vw;
   }
+// }
 }
