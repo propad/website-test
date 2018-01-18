@@ -2,9 +2,7 @@
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
-  height:0;
-  top: 30vw;
-  margin-bottom: 50vh;
+  margin-bottom: 20vh;
 
   iframe{
     left:0;
@@ -17,15 +15,9 @@
     z-index: 1;
   }
 }
-@media (min-width: 400px){
-  .b-new-video{
-    top: 17vw;
-    margin-bottom: 30vh;
-  }
-}
+
 @media (min-width: 900px){
   .b-new-video{
-    top: 30vw;
-    margin-bottom: 30vh;
+   margin-bottom: 15vh;
   }
 }

@@ -2,10 +2,11 @@
   display: block;
   font-size: 8vw;
   color: white;
-  position: relative;
+  // position: relative;
   margin: auto;
+  margin-bottom: 20vh;
   text-align: center;
-  top: 12vw;
+  // top: 12vw;
   z-index: 12;
 }
 @media (min-width: 900px){
@@ -18,29 +19,4 @@
   .c-page-title {
     top: 10vw;
   }
-}
-
-.title-line{
-    position: fixed;
-    margin-left: 15%;
-    border-top: solid 1px white;
-    width: 70%;
-    margin-top: -9vw;
-    margin-bottom: 30vw;
-  }
-@media (min-width: 900px){
-  .title-line{
-      // position: fixed;
-      margin-left: 10%;
-      margin-top: -7vw;
-      border-top: solid 1.5px white;
-      width: 80%;
-    }
-}
-@media (min-width: 1200px){
-  .title-line{
-      // position: fixed;
-      margin-left: 5%;
-      width: 90%;
-    }
 }

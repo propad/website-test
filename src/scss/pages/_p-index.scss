@@ -1,16 +1,14 @@
 .p-index{
-  display: block;
   color: white;
   width: 70vw;
-margin: auto;
-margin-top: 20vw;
+  margin: auto;
+  padding-top: 12vw;
   position: relative;
   text-align: center;
   font-size: 4vw;
 
   h3{
-    margin-top: 45vw;
-    margin-bottom: -25vw;
+    margin-bottom: 5vw;
     font-size: 6vw;
   }
 }
@@ -18,11 +16,9 @@ margin-top: 20vw;
 @media (min-width: 400px){
   .p-index{
     font-size: 3vw;
-    margin-top: 0vw;
     h3{
       font-size: 5vw;
-      margin-bottom: -12vw;
-      margin-top: 27vw;
+      margin-bottom: 4vw;
     }
   }
 }
@@ -33,7 +29,6 @@ margin-top: 20vw;
     width: 60vw;
     h3{
       font-size: 3vw;
-      margin-bottom: -27vw;
     }
   }
 }
