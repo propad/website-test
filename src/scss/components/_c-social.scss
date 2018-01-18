@@ -3,36 +3,39 @@ position: fixed;
 top: 11vw;
 right: 3vw;
 z-index: 20;
+  filter: invert(100%);
 }
 
 
 .fb {
   position: absolute;
   right: 1vw;
-  width: 7vw;
+  width: 8vw;
   opacity: 0.7;
   filter: alpha(opacity=70);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   transition: 0.5s;
+
 }
 @media (min-width: 400px) {
   .fb{
   right: 2vw;
-  width: 4vw;
+  width: 6vw;
 }
 }
 @media (min-width: 900px) {
   .fb{
   top: -1vw;
   right: 1vw;
-  width: 2.5vw;
+  width: 4vw;
 }
 }
 @media (min-width: 1200px) {
   .fb{
   top: -1vw;
   right: 9vw;
+  width: 3vw;
 }
 }
 
@@ -47,9 +50,9 @@ z-index: 20;
 
 .insta {
   position: absolute;
-  top: 10vw;
+  top: 9vw;
   right: 1vw;
-  width: 7vw;
+  width: 8vw;
   opacity: 0.7;
   filter: alpha(opacity=70);
   -webkit-transition: 0.5s;
@@ -58,22 +61,23 @@ z-index: 20;
 }
 @media (min-width: 400px) {
   .insta{
-  top: 5.5vw;
+  top: 6.5vw;
   right: 2vw;
-  width: 4vw;
+  width: 6vw;
 }
 }
 @media (min-width: 900px) {
   .insta{
-  top: 2.5vw;
+  top: 3.5vw;
   right: 1vw;
-  width: 2.5vw;
+  width: 4vw;
 }
 }
 @media (min-width: 1200px) {
   .insta{
   top: -1.07vw;
   right: 5.3vw;
+  width: 3vw;
 }
 }
 
@@ -88,9 +92,9 @@ z-index: 20;
 
 .li {
   position: absolute;
-  top: 19vw;
+  top: 18vw;
   right: 1vw;
-  width: 7vw;
+  width: 8vw;
   opacity: 0.7;
   filter: alpha(opacity=70);
   -webkit-transition: 0.5s;
@@ -99,22 +103,23 @@ z-index: 20;
 }
 @media (min-width: 400px) {
   .li{
-  top: 11vw;
+  top: 13vw;
   right: 2vw;
-  width: 4vw;
+  width: 6vw;
 }
 }
 @media (min-width: 900px) {
   .li{
-  top: 6vw;
+  top: 8vw;
   right: 1vw;
-  width: 2.5vw;
+  width: 4vw;
 }
 }
 @media (min-width: 1200px) {
   .li{
   top: -1vw;
   right: 1.7vw;
+  width: 3vw;
 }
 }
 

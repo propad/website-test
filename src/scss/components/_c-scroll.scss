@@ -6,11 +6,13 @@
   bottom: 15vw;
   left: 4vw;
   width: 10vw;
+  transform: rotate(-90deg);
+  z-index: 20;
 }
 
 #c-scroll.active{
   display: block;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 #c-scroll:hover{
@@ -20,7 +22,7 @@
 @media (min-width: 400px) {
   #c-scroll{
     bottom: 5vw;
-    left: 5vw;
+    left: 3.5vw;
     width: 6vw;
   }
 }
@@ -34,6 +36,7 @@
 @media (min-width: 1200px) {
   #c-scroll{
     bottom: 4vw;
-    left: 4.5vw;
+    left: 5vw;
+    width: 3.5vw;
   }
 }

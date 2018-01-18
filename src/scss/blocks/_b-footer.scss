@@ -6,26 +6,32 @@
   margin: auto;
   margin-top: 6vw;
   margin-bottom: -2vw;
+  z-index: 10;
 }
 
 .phone{
   text-align: center;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .mail{
   text-align: center;
+  width: 60%;
+  margin-left: 20%;
+
 }
 
 .phone-img{
   display: inline-block;
-  width: 5vw;
+  width: 7vw;
   opacity: 0.7;
-  padding: 1vw;
-
+  padding: 0.6vw;
+  filter: invert(100%);
 }
 .phone_link {
   display: inline-block;
-  font-size: 3vw;
+  font-size: 4vw;
   position: relative;
   top: -1.5vw;
   a{
@@ -37,15 +43,16 @@
 
 .mail-img{
   display: inline-block;
-  width: 5.5vw;
+  width: 7vw;
   opacity: 0.7;
-  padding: 1vw;
+  padding: 0.6vw;
+  filter: invert(100%);
 }
 .mail_link {
   display: inline-block;
-  font-size: 3vw;
+  font-size: 4vw;
   position: relative;
-  top: -1.5vw;
+  top: -2vw;
   a{
   color: white;
   text-decoration: underline;
@@ -60,12 +67,25 @@
       font-size: 2.5vw;
     }
     .mail_link{
-      top: -2vw;
+      top: -1.5vw;
+    }
+    .phone-img{
+      width: 5vw;
+    }
+    .mail-img{
+      width: 5vw;
     }
   }
 }
 @media (min-width: 1200px){
   .b-footer{
     width: 90%;
+    .phone-img{
+      width: 4.5vw;
+    }
+    .mail-img{
+      width: 4.5vw;
+    }
 }
+
 }
