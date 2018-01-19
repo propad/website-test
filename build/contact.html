@@ -56,18 +56,16 @@
   <form id="form" action="mailto:i.propadovic@gmail?Subject=Questions" target="_blank" method="post" enctype="text/plain">
     <fieldset>
       <br>First name:<br>
-      <input type="text" name="firstname" >
-      <br>
+      <input id="first_name" type="text" name="first_name" class="form-control required" placeholder="First name">
+      <br><br>
       Last name:<br>
-      <input type="text" name="lastname" >
+      <input id="last_name" type="text" name="last_name" class="form-control required" placeholder="Last name">
       <br><br>
       Message:<br>
-       <textarea name="message" >
+       <textarea name="message" class="form-control required" >
        </textarea>
        <br><br>
-       <!-- <div id="send"> -->
        <input type="submit" value="Send" id="send">
-     <!-- </div> -->
        <br>
     </fieldset>
   </form>
@@ -121,6 +119,7 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
   </body>

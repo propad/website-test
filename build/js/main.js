@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $("#form").validate();
+});
+
 window.onscroll = scroll1;
 
 function scroll1()

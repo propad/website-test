@@ -77,7 +77,7 @@ body {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  margin-bottom: 20vh; }
+  margin-bottom: 25vh; }
   .b-new-video iframe {
     left: 0;
     top: 0;
@@ -377,8 +377,6 @@ body {
 
 .p-contact {
   text-align: center;
-  font-size: 4vw;
-  color: white;
   opacity: 0.9;
   padding-top: 11vw;
   padding-bottom: 15vw; }
@@ -713,22 +711,38 @@ body {
   transition: 0.5s; }
 
 #form {
-  margin: 0 25vw 0 25vw;
+  margin: 0 15vw 0 15vw;
   border: 2px dashed white;
-  padding-bottom: 5vw; }
-  #form input {
-    height: 5vw;
-    width: 35vw; }
-  #form textarea {
-    height: 30vw;
-    width: 40vw; }
+  border-radius: 3px;
+  padding-bottom: 5vw;
+  font-size: 6vw;
+  color: white; }
 
-input[type=submit] {
+#first_name {
+  display: block;
+  height: 9vw;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 3vw; }
+
+#last_name {
+  display: block;
+  height: 9vw;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 3vw; }
+
+textarea {
+  height: 30vw;
+  width: 60vw;
+  font-size: 3vw; }
+
+#send {
   opacity: 0.7;
   background: white;
   color: black;
-  height: 5vw;
-  width: 17vw;
+  height: 6vw;
+  width: 30%;
   border-radius: 1vw;
   font: 4vw 'Amatic SC', cursive;
   line-height: 1vw;
@@ -739,7 +753,7 @@ input[type=submit] {
   -moz-transition: 0.5s;
   transition: 0.5s; }
 
-input[type=submit]:hover {
+#send:hover {
   opacity: 1;
   cursor: pointer;
   filter: alpha(opacity=100);
@@ -748,19 +762,18 @@ input[type=submit]:hover {
   transition: 0.5s; }
 
 @media (min-width: 900px) {
-  .p-contact {
-    margin: 25vw 32vw 15vw 32vw;
+  #form {
     font-size: 2vw;
     padding-bottom: 3vw; }
-    .p-contact input {
-      height: 2.5vw;
-      width: 25vw; }
-    .p-contact textarea {
+    #form input {
+      height: 3vw;
+      width: 50%;
+      margin-left: 25%; }
+    #form textarea {
       height: 20vw;
       width: 30vw; }
-  input[type=submit] {
+  #send {
     height: 2vw;
-    width: 6vw;
     font-size: 2vw; } }
 
 .o-video {
