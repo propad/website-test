@@ -1,0 +1,16 @@
+@mixin breakpoint($break) {
+
+  @if $break == phone {
+    @media (max-width: 767px) { @content; }
+  }
+  @if $break == phoneLandscape {
+    @media (min-width: 400px) { @content; }
+  }
+  @else if $break == tablet {
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $break == desktop {
+    @media (min-width: 1025px) { @content; }
+  }
+
+}

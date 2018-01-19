@@ -133,8 +133,8 @@ z-index: 10;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  transform-origin: 0% 25%;
-  transform: translate(0, -125%);
+  transform-origin: 0% 26%;
+  transform: translate(0, -127%);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   z-index: -1;

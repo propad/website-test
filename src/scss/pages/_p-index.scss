@@ -6,22 +6,29 @@
   position: relative;
   text-align: center;
   font-size: 4vw;
+  @include breakpoint(phoneLandscape){
+    font-size: 3vw;
+  };
 
   h3{
     margin-bottom: 5vw;
     font-size: 6vw;
+    @include breakpoint(phoneLandscape){
+      font-size: 5vw;
+      margin-bottom: 4vw;
+    };
   }
 }
 
-@media (min-width: 400px){
-  .p-index{
-    font-size: 3vw;
-    h3{
-      font-size: 5vw;
-      margin-bottom: 4vw;
-    }
-  }
-}
+// @media (min-width: 400px){
+//   .p-index{
+//     font-size: 3vw;
+//     h3{
+//       font-size: 5vw;
+//       margin-bottom: 4vw;
+//     }
+//   }
+// }
 
 @media (min-width: 900px){
   .p-index{

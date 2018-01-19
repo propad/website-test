@@ -255,16 +255,16 @@ body {
   position: relative;
   text-align: center;
   font-size: 4vw; }
+  @media (min-width: 400px) {
+    .p-index {
+      font-size: 3vw; } }
   .p-index h3 {
     margin-bottom: 5vw;
     font-size: 6vw; }
-
-@media (min-width: 400px) {
-  .p-index {
-    font-size: 3vw; }
-    .p-index h3 {
-      font-size: 5vw;
-      margin-bottom: 4vw; } }
+    @media (min-width: 400px) {
+      .p-index h3 {
+        font-size: 5vw;
+        margin-bottom: 4vw; } }
 
 @media (min-width: 900px) {
   .p-index {
@@ -278,7 +278,7 @@ body {
   color: white;
   width: 70vw;
   margin: auto;
-  margin-top: 20vw;
+  padding-top: 11vw;
   position: relative;
   text-align: center;
   font-size: 6vw; }
@@ -325,7 +325,7 @@ body {
   color: white;
   width: 70vw;
   margin: auto;
-  margin-top: 20vw;
+  padding-top: 11vw;
   position: relative;
   text-align: center; }
   .p-projects p {
@@ -375,12 +375,20 @@ body {
   .p-projects p {
     font-size: 2vw; } }
 
+.p-contact {
+  text-align: center;
+  font-size: 4vw;
+  color: white;
+  opacity: 0.9;
+  padding-top: 11vw;
+  padding-bottom: 15vw; }
+
 .c-page-title {
   display: block;
   font-size: 8vw;
   color: white;
   margin: auto;
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
   text-align: center;
   z-index: 12; }
 
@@ -537,8 +545,8 @@ body {
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  transform-origin: 0% 25%;
-  transform: translate(0, -125%);
+  transform-origin: 0% 26%;
+  transform: translate(0, -127%);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   z-index: -1; }
   #menu li {
@@ -704,19 +712,14 @@ body {
   -moz-transition: 0.5s;
   transition: 0.5s; }
 
-.p-contact {
-  text-align: center;
-  margin: 35vw 25vw 45vw 25vw;
-  font-size: 4vw;
-  color: white;
+#form {
+  margin: 0 25vw 0 25vw;
   border: 2px dashed white;
-  border-radius: 1vw;
-  padding-bottom: 5vw;
-  opacity: 0.9; }
-  .p-contact input {
+  padding-bottom: 5vw; }
+  #form input {
     height: 5vw;
     width: 35vw; }
-  .p-contact textarea {
+  #form textarea {
     height: 30vw;
     width: 40vw; }
 
