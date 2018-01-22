@@ -169,12 +169,12 @@ z-index: 10;
 }
 @media (min-width: 900px){
   #menu{
-    width: 13vw;
+    width: 20vw;
     height: 30vw;
     margin: -4.3vw 0 0 -2vw;
     padding: 1.5vw;
     padding-top: 4vw;
-    transform: translate(-127%, 0);
+    transform: translate(-132%, 0);
 
     li{
       font-size: 4vw;
@@ -185,9 +185,9 @@ z-index: 10;
 
 @media (min-width: 1200px){
   #menu{
-    width: 12vw;
+    width: 14vw;
     height: 23vw;
-    margin: -0.7vw 0 0 0vw;
+    margin: -0.7vw 0 0 -1vw;
     padding: 1.5vw;
     padding-top: 1.5vw;
     transform: translate(0, 0);

@@ -16,8 +16,9 @@
 
 .mail{
   text-align: center;
-  width: 60%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -1.5vw;
 
 }
 
@@ -30,9 +31,9 @@
 }
 .phone_link {
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3.5vw;
   position: relative;
-  top: -1.5vw;
+  top: -2.5vw;
   a{
   color: white;
   text-decoration: underline;
@@ -64,6 +65,9 @@
     width: 80%;
     a{
       font-size: 2.5vw;
+    }
+    .phone_link{
+      top: -1.5vw;
     }
     .mail_link{
       top: -1.5vw;

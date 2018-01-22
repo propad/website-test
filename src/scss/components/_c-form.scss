@@ -3,29 +3,28 @@ margin: 0 15vw 0 15vw;
 border: 2px dashed white;
 border-radius: 3px;
 padding-bottom: 5vw;
-font-size: 6vw;
+font-size: 7vw;
 color: white;
 }
 
- #first_name{
-   display: block;
-   height: 9vw;
-   width: 80%;
-   margin-left: 10%;
-   font-size: 3vw;
+br{
+
 }
- #last_name{
+
+ #first_name, #last_name{
    display: block;
-   height: 9vw;
+   height: 10vw;
    width: 80%;
    margin-left: 10%;
-   font-size: 3vw;
- }
+   margin-top: 1vw;
+   font-size: 4vw;
+}
 
 textarea{
   height: 30vw;
-  width: 60vw;
-  font-size: 3vw;
+  width: 80%;
+  font-size: 4vw;
+  margin-top: 1vw;
 }
 
 
@@ -35,8 +34,9 @@ textarea{
   color: black;
   height: 6vw;
   width: 30%;
+  margin-top: 3vw;
   border-radius: 1vw;
-  font: 4vw 'Amatic SC', cursive;
+  font: 4vw 'Roboto Condensed', sans-serif;
   line-height: 1vw;
   border: none;
   outline: none;
@@ -55,25 +55,69 @@ textarea{
     transition: 0.5s;
   }
 
+  @media (min-width: 400px){
+    #form {
+    margin: 0 20vw 0 20vw;
+    font-size: 5vw;
+    padding-bottom: 3vw;
+    #first_name, #last_name{
+      height: 7vw;
+      width: 70%;
+      margin-left: 15%;
+      font-size: 3vw;
+    }
+    textarea{
+      font-size: 3vw;
+    }
+  }
+}
 
   @media (min-width: 900px){
     #form {
-    font-size: 2vw;
+    margin: 0 25vw 0 25vw;
+    font-size: 4vw;
     padding-bottom: 3vw;
-    input{
-      height: 3vw;
-      width: 50%;
-      margin-left: 25%;
+    #first_name, #last_name{
+      height: 5vw;
+      width: 60%;
+      margin-left: 20%;
+      font-size: 2.5vw;
     }
 
     textarea{
       height: 20vw;
-      width: 30vw;
+      width: 40vw;
+      font-size: 2.5vw;
     }
   }
 
    #send {
-   height: 2vw;
-   font-size: 2vw;
+   height: 4vw;
+   font-size: 3vw;
   }
+}
+
+@media (min-width: 1200px){
+  #form {
+  margin: 0 35vw 0 35vw;
+  font-size: 3vw;
+  padding-bottom: 3vw;
+  #first_name, #last_name{
+    height: 3vw;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 2vw;
+  }
+
+  textarea{
+    height: 20vw;
+    width: 25vw;
+    font-size: 2vw;
+  }
+}
+
+ #send {
+ height: 3vw;
+ font-size: 2vw;
+}
 }
