@@ -53,17 +53,20 @@
 <div class="p-contact">
   <h2 class="c-page-title">Contact</h2>
 
-  <form id="form" action="mailto:i.propadovic@gmail?Subject=Questions" target="_blank" method="post" enctype="text/plain">
+  <form id="form" enctype="text/plain" >
 
-      <br>First name:<br>
-      <input id="first_name" type="text" name="first_name" class="form-control required" >
+      <!-- <br>First name: -->
       <br>
-      <br>Last name:<br>
-      <input id="last_name" type="text" name="last_name" class="form-control required" >
+      <input id="first_name" type="text" name="first_name" class="form-control required" placeholder="First name">
       <br>
-      <br>Message:<br>
-       <textarea name="message" >
-       </textarea>
+      <!-- <br>Last name: -->
+      <br>
+      <input id="last_name" type="text" name="last_name" class="form-control required" placeholder="Last name">
+      <br>
+
+      <!-- <br>Message: -->
+      <br>
+       <textarea placeholder="Message" name="message"></textarea>
        <br>
        <input type="submit" value="Send" id="send">
        <br>
@@ -120,6 +123,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.5.0/alertify.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
   </body>
