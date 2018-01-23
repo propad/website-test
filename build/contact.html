@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112925929-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112925929-1');
+    </script>
 
     <meta charset="utf-8">
     <title>Ivan Propadovic/Contact</title>
@@ -10,14 +19,6 @@
     <meta name="keywords" content="music, guitar, play, audio, sound">
     <meta name="description" content="Web page about musician/performer - Ivan Propadovic">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112503867-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112503867-1');
-</script>
 
   </head>
   <body>
@@ -53,7 +54,7 @@
 <div class="p-contact">
   <h2 class="c-page-title">Contact</h2>
 
-  <form id="form" enctype="text/plain" action="">
+  <form id="form" method="post" action="/Users/ivanpropad/Documents/Ivan Dokumenta/css test/build/thanks.html">
 
       <!-- <br>First name: -->
       <br>
@@ -68,7 +69,7 @@
       <br>
        <textarea placeholder="Message" name="message"></textarea>
        <br>
-       <input type="submit" value="Send" id="send">
+       <button id="send">Send</button>
        <br>
 
   </form>

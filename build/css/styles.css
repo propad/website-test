@@ -384,6 +384,35 @@ body {
   padding-top: 11vw;
   padding-bottom: 15vw; }
 
+.p-thanks {
+  color: white;
+  width: 70vw;
+  margin: auto;
+  padding-top: 12vw;
+  position: relative;
+  text-align: center;
+  font-size: 4vw; }
+  @media (min-width: 400px) {
+    .p-thanks {
+      font-size: 3vw; } }
+  .p-thanks h3 {
+    margin-top: 40vw;
+    margin-bottom: 70vw;
+    font-size: 7vw; }
+    @media (min-width: 400px) {
+      .p-thanks h3 {
+        font-size: 7vw;
+        margin-bottom: 60vw; } }
+
+@media (min-width: 900px) {
+  .p-thanks {
+    font-size: 2vw;
+    width: 60vw; }
+    .p-thanks h3 {
+      font-size: 5vw;
+      margin-top: 20vw;
+      margin-bottom: 10vw; } }
+
 .c-page-title {
   display: block;
   font-size: 8vw;
