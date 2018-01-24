@@ -63,13 +63,13 @@
       <!-- <br>Last name: -->
       <br>
       <input id="last_name" type="text" name="last_name" class="required" required="required" placeholder="Last name">
-      
+
 
       <!-- <br>Message: -->
       <br>
        <textarea placeholder="Message" name="message"></textarea>
        <br>
-       <input type="submit" value="Send" id="send">
+       <input type="submit" value="Send" id="send" onClick="ga('send', 'event', { eventCategory: 'form', eventAction: 'submit'});">
        <br>
 
   </form>
