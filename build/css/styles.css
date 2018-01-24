@@ -396,13 +396,13 @@ body {
     .p-thanks {
       font-size: 3vw; } }
   .p-thanks h3 {
-    margin-top: 40vw;
-    margin-bottom: 70vw;
+    margin-top: 30vh;
+    margin-bottom: 35vh;
     font-size: 7vw; }
     @media (min-width: 400px) {
       .p-thanks h3 {
         font-size: 7vw;
-        margin-bottom: 60vw; } }
+        margin-bottom: 40vh; } }
 
 @media (min-width: 900px) {
   .p-thanks {
@@ -410,8 +410,8 @@ body {
     width: 60vw; }
     .p-thanks h3 {
       font-size: 5vw;
-      margin-top: 20vw;
-      margin-bottom: 10vw; } }
+      margin-top: 30vh;
+      margin-bottom: 30vh; } }
 
 .c-page-title {
   display: block;
@@ -755,14 +755,12 @@ body {
   height: 10vw;
   width: 80%;
   margin-left: 10%;
-  font-size: 4vw;
-  margin-bottom: 0.5vw; }
+  font-size: 4vw; }
 
 textarea {
   height: 30vw;
   width: 80%;
   font-size: 4vw;
-  margin-top: 1vw;
   padding-top: 1vw; }
 
 #send {
@@ -794,11 +792,15 @@ textarea {
   #form {
     margin: 0 25vw 0 25vw;
     font-size: 3vw;
-    padding-bottom: 3vw; }
+    padding-bottom: 3vw;
+    padding-top: 1vw; }
     #form #first_name, #form #last_name {
       height: 7vw;
       font-size: 3vw; }
     #form textarea {
+      font-size: 3vw; }
+    #form #send {
+      height: 4vw;
       font-size: 3vw; } }
 
 @media (min-width: 900px) {
@@ -811,30 +813,24 @@ textarea {
       font-size: 2.5vw; }
     #form textarea {
       height: 20vw;
-      font-size: 2.5vw; }
-  #send {
-    height: 4vw;
-    font-size: 3vw; } }
+      font-size: 2.5vw; } }
 
 @media (min-width: 1200px) {
   #form {
     margin: 0 35vw 0 35vw;
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
     font-size: 2vw; }
     #form #first_name, #form #last_name {
-      height: 3vw;
-      width: 60%;
-      margin-left: 20%;
-      font-size: 2vw; }
+      height: 3.5vw;
+      font-size: 1.5vw; }
     #form textarea {
       height: 20vw;
-      width: 25vw;
-      font-size: 2vw;
+      font-size: 1.5vw;
       margin-top: 0vw; }
-  #send {
-    height: 3vw;
-    font-size: 2vw;
-    margin-top: 1vw; } }
+    #form #send {
+      height: 3vw;
+      font-size: 2vw;
+      margin-top: 1vw; } }
 
 .o-video {
   padding-top: 17vh; }

@@ -11,12 +11,12 @@
   };
 
   h3{
-    margin-top: 40vw;
-    margin-bottom: 70vw;
+    margin-top: 30vh;
+    margin-bottom: 35vh;
     font-size: 7vw;
     @include breakpoint(phoneLandscape){
       font-size: 7vw;
-      margin-bottom: 60vw;
+      margin-bottom: 40vh;
     };
   }
 }
@@ -27,8 +27,8 @@
     width: 60vw;
     h3{
       font-size: 5vw;
-      margin-top: 20vw;
-      margin-bottom: 10vw;
+      margin-top: 30vh;
+      margin-bottom: 30vh;
     }
   }
 }

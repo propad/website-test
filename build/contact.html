@@ -54,22 +54,22 @@
 <div class="p-contact">
   <h2 class="c-page-title">Contact</h2>
 
-  <form id="form" method="post" action="/Users/ivanpropad/Documents/Ivan Dokumenta/css test/build/thanks.html">
+  <form id="form" enctype="text/plain" action="thanks.html">
 
       <!-- <br>First name: -->
       <br>
       <input id="first_name" type="text" name="first_name" class="required" required="required" placeholder="First name">
-      <br>
+
       <!-- <br>Last name: -->
       <br>
       <input id="last_name" type="text" name="last_name" class="required" required="required" placeholder="Last name">
-      <br>
+      
 
       <!-- <br>Message: -->
       <br>
        <textarea placeholder="Message" name="message"></textarea>
        <br>
-       <button id="send">Send</button>
+       <input type="submit" value="Send" id="send">
        <br>
 
   </form>

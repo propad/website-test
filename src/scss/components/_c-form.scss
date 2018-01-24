@@ -8,24 +8,18 @@ font-size: 4vw;
 color: white;
 }
 
-br{
-
-}
-
  #first_name, #last_name{
    display: block;
    height: 10vw;
    width: 80%;
    margin-left: 10%;
    font-size: 4vw;
-   margin-bottom: 0.5vw;
 }
 
 textarea{
   height: 30vw;
   width: 80%;
   font-size: 4vw;
-  margin-top: 1vw;
   padding-top: 1vw;
 }
 
@@ -62,15 +56,18 @@ textarea{
     margin: 0 25vw 0 25vw;
     font-size: 3vw;
     padding-bottom: 3vw;
+    padding-top: 1vw;
     #first_name, #last_name{
       height: 7vw;
-      // width: 70%;
-      // margin-left: 15%;
       font-size: 3vw;
     }
     textarea{
       font-size: 3vw;
     }
+    #send {
+      height: 4vw;
+      font-size: 3vw;
+      }
   }
 }
 
@@ -81,47 +78,36 @@ textarea{
     padding-bottom: 3vw;
     #first_name, #last_name{
       height: 5vw;
-      // width: 70%;
-      // margin-left: 15%;
       font-size: 2.5vw;
     }
 
     textarea{
       height: 20vw;
-      // width: 70%;
       font-size: 2.5vw;
     }
-  }
-
-   #send {
-   height: 4vw;
-   font-size: 3vw;
   }
 }
 
 @media (min-width: 1200px){
   #form {
   margin: 0 35vw 0 35vw;
-  padding-bottom: 3vw;
+  padding-bottom: 2vw;
   font-size: 2vw;
   #first_name, #last_name{
-    height: 3vw;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 2vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
   }
 
   textarea{
     height: 20vw;
-    width: 25vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 0vw;
   }
-}
 
- #send {
- height: 3vw;
- font-size: 2vw;
- margin-top: 1vw;
+  #send {
+    height: 3vw;
+    font-size: 2vw;
+    margin-top: 1vw;
+  }
 }
 }
