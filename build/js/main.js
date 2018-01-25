@@ -10,14 +10,14 @@ $(document).ready(function(){
     return filled;
   }
 
-  button.on("click",function(){
-
-    if (button.hasClass("active")) {
-      ga('send', 'event', { eventCategory: 'form', eventAction: 'submit'});
-    //  alert("Thank you!");
-
-    }
-  });
+  // button.on("click",function(){
+  //
+  //   if (button.hasClass("active")) {
+  //     // ga('send', 'event', { eventCategory: 'form', eventAction: 'submit'});
+  //   //  alert("Thank you!");
+  //
+  //   }
+  // });
 
   $('#form .required').on('keyup', function() {
      if(allFilled()) button.addClass('active');
