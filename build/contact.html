@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112925929-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -53,7 +52,7 @@
 <div class="p-contact">
   <h2 class="c-page-title">Contact</h2>
 
-  <form id="form" enctype="text/plain" action="thanks.html">
+  <form id="form" enctype="text/plain" action="thanks.html" >
 
       <!-- <br>First name: -->
       <br>
@@ -68,7 +67,7 @@
       <br>
        <textarea placeholder="Message" name="message"></textarea>
        <br>
-       <input type="submit" value="Send" id="send">
+       <input type="submit" value="Send" id="send" onClick="gtag('send', 'event', { eventCategory: 'form', eventAction: 'submit'});">
        <br>
 
   </form>
