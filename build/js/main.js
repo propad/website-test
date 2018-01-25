@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     if (button.hasClass("active")) {
       ga('send', 'event', { eventCategory: 'form', eventAction: 'submit'});
-    //   alert("Thank you!");
+    //  alert("Thank you!");
 
     }
   });
